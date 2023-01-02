@@ -1,0 +1,68 @@
+.contact {
+  padding: 40px 20% 20px 10%;
+  background-color: white;
+}
+.thead {
+  position: sticky;
+  z-index: 100;
+}
+.tr {
+  background: rgba(245, 245, 245);
+}
+.th {
+  padding: 8px;
+  color: rgba(33, 33, 33);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.table {
+  margin-left: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+input {
+  margin-left: 8px;
+  padding: 10px;
+  box-shadow: 0 0 1px 1px;
+  border-radius: 20px;
+  font-family: monospace;
+}
+
+.btn {
+  background: #212121;
+  border: 1px solid;
+  border-color: #212121;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  height: 48px;
+  line-height: 1;
+  padding: 15px 28px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  padding: 40px;
+}
+form textarea,
+form input {
+  border: 1px solid #212121;
+  border-radius: 6px;
+  color: #212121;
+  font-size: 15px;
+  min-height: 44px;
+  padding: 0 20px;
+  transition: border-color 0.2s ease;
+  width: 100%;
+  margin-bottom: 30px;
+}
